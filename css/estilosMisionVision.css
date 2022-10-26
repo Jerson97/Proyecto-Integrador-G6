@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estructura{background: white; margin-top: 15px;}
+
+
+.QSo{
+	text-align:left;
+    padding: 10px 0;
+	font-family: 'Passion One', cursive;
+	color:purple;
+}
+
+.contenido{
+	color:#000000;
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding-top: 4px;
+	padding-bottom: 8px;
+    font-size: 22px;
+
+}
+
+#ArreImg1{
+	
+	padding-left: 20px;
+	
+}
+
+#ArreImg2{
+	
+	padding-left: 20px;
+	
+	
+}
+#ArreImg3{
+	
+	padding-left: 20px;
+	
+}
+
+#ArreImg4{
+	
+	padding-left: 20px;
+	
+	margin-bottom: 25px;
+
+	
+}
+
+
+
+

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estructura{background: white; margin-top: 15px;}
+
+
+.QSo{
+	text-align:left;
+    padding: 10px 0;
+	font-family: 'Passion One', cursive;
+	color:purple;
+}
+
+.contenido{
+	color:#000000;
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding: inherit;
+    font-size: 20px;
+
+}
+
+#ArreImg1{
+	
+	padding-left: 55px;
+	
+}
+
+#ArreImg2{
+	
+	padding-left: 55px;
+	
+	
+}
+.subtitulo1{
+	
+	color: white;
+	text-align: center;
+	padding: 18px 0;
+	font-weight: 600;
+    font-family: 'Francois One', sans-serif;
+}
+
+
+
+.subtitulo2{
+	
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	font-weight: 600;
+    font-family: 'Francois One', sans-serif;
+}
+
+
+
+.NExp{
+	text-align:left;
+	padding: 17px 0;
+	color: purple;
+	font-family: 'Passion One', cursive;
+	
+}
+
+.imagen{
+	
+	text-align: center;
+	
+	margin-bottom: 20px;
+	
+	
+}

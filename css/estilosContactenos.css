@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estructura{background: white; margin-top: 15px;}
+
+.titulo{color: purple; font-family:  'Amaranth', sans-serif; margin-left: 100px; margin-top: 30px;}
+
+.formu{margin-left: 100px;}
+
+
+@media(max-width: 420px)
+{
+	
+	.titulo{margin-left: 70px;}
+	.formu{margin-left: 30px;}
+}
+
+
+
+@media(max-width: 388px)
+{
+	.titulo{margin-left: 60px;}
+	.formu{margin-left: 30px;}
+}

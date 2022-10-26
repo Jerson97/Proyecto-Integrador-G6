@@ -1,0 +1,416 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{margin-left: auto; margin-right: auto;width: auto}
+
+
+.footer{background: white;}
+.textofooter{margin-top: 30px; margin-left: 170px; float: left;font-size: 15px; font-family: 'Amaranth', sans-serif;}
+
+
+.colorA{color: black !important;}
+
+.colorA:hover{color: purple !important ; border-bottom: dotted 4px purple;}
+
+.colorSA{color: black !important; font-weight:500; }
+
+.colorSA:hover{color: purple !important}
+
+
+.fondoIndex{background-color: rgba(143,66,121,1.00) !important;}
+.cuerpo{background: white; position: absolute; margin-top: 15px; margin-left: -15px;}
+
+.ajuste{width: auto; height: 1050px;margin-left: auto; margin-right: auto;}
+
+
+.fixed {position: fixed; width: 100%;top: 0;left: 0; background:violet !important; z-index: 1030; font-size: 16px; font-style: italic;}
+
+.tamaLetra {font-size: 18px; font-style: italic;}
+
+.hora {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 0.1rem;
+  font-size: 1.1rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: white;
+  float: left;	
+ 
+}
+
+
+.horamed {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0rem;
+  margin-right: 0.1rem;	
+  font-size: 1.1rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: white;
+  float: left;	
+ 
+}
+
+.horadis {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0rem;
+  margin-right: 0.1rem;	
+  font-size: 1.1rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: white;
+  float: left;	
+ 
+}
+
+
+.fecha {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0rem;
+  margin-right: 0rem;	
+  font-size: 1.1rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: white;
+  float: left;	
+ 
+}
+
+.fechamed {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0rem;
+  margin-right: 0rem;	
+  font-size: 1.1rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: white;
+  float: left;	
+ 
+}
+
+
+.fechadis {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0rem;
+  margin-right: 0.80rem;	
+  font-size: 1.1rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: white;
+  float: left;	
+ 
+}
+
+/*.sketch-mio{width: 1349px}*/
+
+.posi_redes{width: 200px; height: 50px; margin-top: 20px; float:right;}
+.red {width: 45px; height: 40px;float: left;}
+
+.calendario {width: 35px; height: 35px;float: left;}
+.reloj {width: 35px; height: 35px;float: left;}
+
+
+       /*-----Estilos para cada icono------*/
+
+[class^="icon-facebook"] { color: white; text-decoration:none !important; font-size:30px; padding: 5px 5px; background:  rgba(143,66,121,1.00) ; border-radius: 50%; width: 40px; height: 40px;display: inline-block; line-height: 41px; margin-right: 3px;}
+
+[class^="icon-twitter"] { color: white; text-decoration: none !important; font-size:30px; padding: 5px 6px; background:  rgba(143,66,121,1.00) ; border-radius: 50%; width: 40px; height: 40px;display: inline-block; line-height: 41px; margin-right: 3px;}
+
+[class^="icon-linkedin"] { color: white; text-decoration: none !important; font-size:28px; padding: 3px 7px; background: rgba(143,66,121,1.00); border-radius: 50%; width: 40px; height: 40px;display: inline-block; line-height: 39px; margin-right: 3px;}
+
+[class^="icon-gmail"]  { color: white; text-decoration: none !important; font-size:27px; padding: 3px 6.5px; background: rgba(143,66,121,1.00); border-radius: 50%; width: 40px; height: 40px;display:inline-block; line-height: 39px; margin-right: 3px;}
+
+[class^="icon-compartir"] { color: white; text-decoration: none !important; font-size:25px; padding: 0px 5px; background: aquamarine; border-radius: 50%; width: 35px; height: 35px;display: inline-block; line-height: 41px; margin-right: 3px;}
+
+
+
+[class^="icon-calendar"] { color: purple; text-decoration:none !important; font-size:20px; padding: 5px 5px; background:  white ; border-radius: 50%; width: 30px; height: 30px;display: inline-block; line-height: 21px; margin-right: 0px;}
+
+[class^="icon-clock"] { color: purple; text-decoration:none !important; font-size:20px; padding: 5px 5px; background:  white ; border-radius: 50%; width: 30px; height: 30px;display: inline-block; line-height: 21px; margin-right: 0px;}
+
+/*--------------------------------------------------*/
+
+.introF{color:deepskyblue;font-family: 'Courgette', cursive; font-size: 48px;margin-left: 0px; font-weight: bold;}
+.introF2{color: deepskyblue;font-family: 'Patua One', cursive; font-size: 18px;margin-left: 50px;}
+
+
+.offset-4-mio {
+  margin-left: 41.666667%;
+}
+
+
+
+/*-----------------------*/
+
+.logoli {margin-left: 5rem; margin-right: 5rem; display: block; visibility: visible;}
+.parali{margin-top: 15px; font-family:'Kreon', serif;}
+
+/*-----------------------*/
+
+
+@media (max-width: 1990px) { /*Cuando la pantalla sea menor a */
+	
+	.logoli{margin-left: 10rem; margin-right: 10rem;}
+	.fechadis{margin-right: 2rem}
+
+}
+
+
+@media(max-width:1369px) {
+	
+	.fechadis{margin-right: 2rem}
+	
+}
+
+@media (max-width:1280px) {
+	.offset-4-mio2 { margin-left: 32.666667%;}
+	.logo {border: none ; margin-left: 68%}
+	.logoli{margin-left: 9rem; margin-right: 9rem;visibility: hidden; display: none;}
+	.fechadis{margin-right: 38px;}
+
+	
+}
+
+
+
+
+@media (max-width: 1199px) { /*Cuando la pantalla sea menor a */
+	
+	.logoli{margin-left: 4rem; margin-right: 4rem;}
+	.textofooter{margin-left: 65px;margin-top: 28px;}
+
+	.fecha{font-size: 1rem;}
+	.fechamed{font-size: 1rem;}
+	.fechadis{margin-right: 20px; font-size: 1rem;}
+
+	.hora{font-size: 1rem;}
+	.horamed{font-size: 1rem;}
+	.horadis{font-size: 1rem;}
+	
+}
+
+@media (min-width: 992px) {
+	
+	.logoli{visibility: visible; display: block;}
+
+}
+
+@media (max-width: 992px) {
+	
+	.textofooter{margin-left: 65px;width: 230px; text-align: center;margin-top: 25px}
+	
+	.hora{font-size: 0.80rem;margin-left: 0px;}
+	.horamed{font-size: 0.80rem;}
+	.horadis{font-size: 0.80rem;}
+	
+	.fecha{font-size: 0.80rem;margin-left: 0px;}
+	.fechamed{font-size: 0.80rem;}
+	.fechadis{font-size: 0.80rem; margin-right: 0.4rem}
+
+}
+
+
+@media (max-width:816px) {
+	.offset-4-mio2 { margin-left: 32.666667%;}
+	.textofooter{font-size: 15px; margin-top: 22px;}
+
+	
+}
+
+@media (max-width:767px) {
+	.offset-4-mio { margin-left: 0px;}
+	.logo{margin-left: 60%}
+	.textofooter{margin-left: 2px;width: 160px; text-align: center;font-size: 13px; margin-top: 18px;}
+    
+	
+	.hora{font-size: 0.80rem;margin-left: 0px;}
+	.horamed{font-size: 0.80rem;}
+	.horadis{font-size: 0.80rem;}
+	
+	.fecha{font-size: 0.80rem;margin-left: 0px;}
+	.fechamed{font-size: 0.80rem;}
+	.fechadis{font-size: 0.80rem; margin-right: 0.4rem}
+	
+	
+	
+	
+	
+}
+
+
+@media(min-width:589px)
+{
+	.tama {width: 270px;}
+}
+
+
+@media (max-width:588px)
+{
+	.introF{font-size: 44px;margin-left: 0px; }
+	.introF2{font-size: 14px;margin-left: 10px; }
+	
+	
+	.hora{font-size: 0.80rem;margin-left: 0px;}
+	.horamed{font-size: 0.80rem;}
+	.horadis{font-size: 0.80rem;}
+	
+	.fecha{font-size: 0.80rem;margin-left: 0px;}
+	.fechamed{font-size: 0.80rem;}
+	.fechadis{font-size: 0.80rem; margin-right: 0.4rem}
+	
+	
+	
+	.logoli{margin-left: 0rem; margin-right: 8rem;visibility: hidden; display: none;}
+	.cen{margin-left: 0px;}
+	.tama{width: 250px;}
+	.logo{margin-left: 59%;}
+	.posi_redes{margin-right: 25%}
+	.textofooter{font-size: 14px; margin-top: 18px; margin-left: 38%;}
+	
+	
+	.calendario{width:30px ;height: 30px;}
+	.reloj{width:30px ;height: 30px;}
+	
+[class^="icon-calendar"] { color: purple; text-decoration:none !important; font-size:17px; padding: 5px 4.5px; background:  white ; border-radius: 50%; width: 26px; height: 26px;display: inline-block; line-height: 21px; margin-right: 0px;}
+
+[class^="icon-clock"] { color: purple; text-decoration:none !important; font-size:20px; padding: 3px 3px; background:  white ; border-radius: 50%; width: 26px; height: 26px;display: inline-block; line-height: 21px; margin-right: 0px;}
+	
+}
+
+
+@media(max-width:575px)
+{
+	.introF{font-size: 44px;margin-left: 0px; }
+	.introF2{font-size: 14px;margin-left: 10px; }
+	
+	.hora{font-size: 0.70rem;margin-left: 0px;}
+	.horamed{font-size: 0.70rem;}
+	.horadis{font-size: 0.70rem;}
+	
+	.fecha{font-size: 0.70rem;margin-left: 0px;}
+	.fechamed{font-size: 0.70rem;}
+	.fechadis{font-size: 0.70rem; margin-right: 0.4rem}
+	
+	.buscar{width: 70px;}
+	.bbuscar{width: 80px;}
+	.cen{margin-left: 0px;}
+	.tama{width: 220px;}
+	.logo{margin-left: 51%;}
+	.posi_redes{margin-right: 20%}
+	.textofooter{font-size: 14px; margin-top: 18px; margin-left: 25%;}
+
+	.calendario{width:24px ;height: 23px;}
+	.reloj{width:24px ;height: 23px;}
+
+	[class^="icon-calendar"] {font-size:14px; padding: 3px 4px; background:  white ; border-radius: 50%; width: 22px; height: 22px;display: inline-block; line-height: 21px; margin-right: 0px;}
+	
+	[class^="icon-clock"] {font-size:17px; padding: 3px 2.5px; background:  white ; border-radius: 50%; width: 22px; height: 22px;display: inline-block; line-height: 21px; margin-right: 0px;}
+
+
+}
+
+@media (max-width: 480px) {
+	.logo{margin-left: 34%}
+	}
+
+@media (max-width: 488px) { /*Cuando la pantalla sea menor a 400px*/
+
+	.introF{font-size: 44px;margin-left: 120px; }
+	.introF2{font-size: 14px;margin-left: 126px; }
+	
+	.reloj{margin-left: 35px;}
+	.hora{font-size: 0.95rem;margin-left: 0px;}
+	.horamed{font-size: 0.95rem;}
+	.horadis{font-size: 0.95rem;}
+	
+	.calendario{margin-left: 50px;}
+	.fecha{font-size: 0.95rem;margin-left: 0px;}
+	.fechamed{font-size: 0.95rem;}
+	.fechadis{font-size: 0.95rem;}
+	
+	.logoli{margin-left: 0rem; margin-right: 8rem;visibility: hidden; display: none;}
+	.cen{margin-left: 17px;}
+	.tama{width: 400px;}
+	.logo{margin-left: 40%;}
+	.buscar{width: auto;}
+	.bbuscar{width: 229px;}
+	.posi_redes{margin-right: 15%}
+	.textofooter{font-size: 14px; margin-top: 18px; margin-left: 10%;}
+
+	
+	
+[class^="icon-calendar"] { color: purple; text-decoration:none !important; font-size:20px; padding: 5px 5px; background:  white ; border-radius: 50%; width: 30px; height: 30px;display: inline-block; line-height: 21px; margin-right: 0px;}
+
+[class^="icon-clock"] { color: purple; text-decoration:none !important; font-size:20px; padding: 5px 5px; background:  white ; border-radius: 50%; width: 30px; height: 30px;display: inline-block; line-height: 21px; margin-right: 0px;}
+
+.calendario {width: 35px; height: 35px;float: left;}
+.reloj {width: 35px; height: 35px;float: left;}
+	
+}
+
+
+@media (max-width: 420px) { /*Cuando la pantalla sea menor a 420px*/
+
+	.introF{font-size: 44px;margin-left: 88px; }
+	.introF2{font-size: 14px;margin-left: 96px; }
+	
+	.reloj{margin-left: 35px;}
+	.hora{font-size: 0.95rem;margin-left: 0px;}
+	
+	
+	.calendario{margin-left: 35px;}
+	.fecha{font-size: 0.95rem;margin-left: 0px;}
+	.fechamed{font-size: 0.95rem;}
+	.fechadis{font-size: 0.95rem;}
+	
+	
+	
+	.logoli{margin-left: 0rem; margin-right: 0rem;visibility: hidden; display: none;}
+	.cen{margin-left: 5px;}
+	.tama{width: 400px;}
+	.logo{margin-left: 40%;}
+	.buscar{width: auto;}
+	.bbuscar{width: 210px;}
+	.posi_redes{margin-right: 15%}
+	.textofooter{font-size: 14px; margin-top: 18px; margin-left: 8%;}
+
+
+	}
+
+
+
+
+@media (max-width: 413px) { /*Cuando la pantalla sea menor a 400px*/
+	
+	.textofooter{font-size: 14px; margin-top: 18px; margin-left: 2%;}
+	.logo{margin-left: 34%;}
+	.posi_redes{margin-right: 13%}
+	
+	.introF{font-size: 44px;margin-left: 80px; }
+	.introF2{font-size: 14px;margin-left: 88px; }
+	
+	
+	.reloj{margin-left: 15px;}
+	.hora{margin-left: 0px;}
+	
+	
+	.calendario{margin-left: 25px;}
+	.fecha{font-size: 0.95rem;margin-left: 0px;}
+	.fechamed{font-size: 0.95rem;}
+	.fechadis{font-size: 0.95rem;}
+	
+	.buscar{width: auto;}
+	.bbuscar{width: 180px;}
+}

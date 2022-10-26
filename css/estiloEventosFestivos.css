@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estructura{background: white; margin-top: 15px;}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #A34FF4;
+}
+.galeria{
+	background: white;
+	max-width: 1130px;
+	margin: 7px auto;
+	overflow: hidden;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+.galeria h1{
+	text-align:center;
+	margin: 20px 0 15px 0;
+	font-weight: 300;
+	
+}
+.linea{
+	border-top: 5px solid #EB40C5;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.contenedor-imagenes{
+	display: flex;
+	width: 85%;
+	margin: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-radius: 50%;
+}
+.contenedor-imagenes .imagen{
+	width: 32%;
+	position:relative;
+	height: 320px;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0, .75);
+	border-radius: 50%;
+}
+.imagen{
+	margin:6px;
+	margin-bottom: 10px;
+}
+.imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	
+}
+.overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background:rgba(251,251,251,0.39);
+	width: 100%;
+	height: 0%;
+	transition: .5s ease ;
+	overflow: hidden;
+	border-radius: 50%;
+
+}
+.overlay h2{
+	color:black;
+	font-weight: 300;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50% , -50%);
+	font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+} 
+.imagen:hover .overlay{
+	
+	height: 100%;
+	cursor: pointer;
+}
+/*agrandar imagen */
+.imagen:hover .dentro{
+	transform: scale(0.9);
+	
+	
+}
+@media(min-width:480px){
+	.dentro{
+	width: 	40%;
+	
+	}
+}
+
+@media(min-width:768px){
+	.dentro{
+	width: 	30%;
+	
+	}
+}
+
+@media(min-width:1024px){
+	.dentro{
+	width: 	20%;
+	
+	}
+}
+
+.modal{
+	position:fixed;
+	width: 100%;
+	height: 100vh;
+	background:rgba(0,0,0,0.79);
+	top: 0;
+	left: 0;
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.modal_img{
+	width: 80%;
+	max-width: 700px;
+}
+
+.modal_boton{
+	width: 50px;
+	height: 50px;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: monospace;
+	line-height: 50px;
+	text-align: center;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	
+	
+}
+.modal__conte{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 100vh;
+	
+	
+}
+
+#video{
+	text-align: center;
+	max-width: 100%;
+	min-width: 200px;
+}
+
+.modal-open{
+	display: block;
+}

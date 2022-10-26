@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estructura{background: white; margin-top: 15px;}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#CC76FF;
+}
+
+.contenedor{
+	background: white;
+	width: 1000px;
+	margin: 7px auto;
+	overflow: hidden;
+}
+.aliash1{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.linea{
+	border-top: 5px solid #EB40C5;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.minichef{
+	overflow: hidden; padding: 15px 0;
+}
+.img1{
+	float: right;
+	overflow: hidden;
+	margin-right: 30px;
+	border-radius: 45%;
+	
+}
+
+.txt1{
+	
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	
+	
+}
+.descripcion{
+	margin-left: 120px;
+	margin-top: 70px;
+}
+
+.loncheras{
+	overflow: hidden; padding: 15px 0;
+}
+.img2{
+	float: left;
+	overflow: hidden;
+	margin-left: 30px;
+	border-radius: 45%;
+}
+
+.txt2{
+	
+	float: right;
+	overflow: hidden;
+	text-align:justify;
+	
+}
+
+.descripcion1{
+	margin-right: 120px;
+	margin-top: 70px;
+}
+
+#video{
+	text-align: center;
+	max-width: 100%;
+	min-width: 200px;
+}

@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.estructura{background: white; margin-top: 15px;}
+
+.textomit2{float: right; margin-left: 50px; margin-top: 200px; text-align: center;}
+
+.textomit3{float: left; margin-left: 20px; margin-top: 200px; text-align: center;}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#CC76FF;
+}
+.contenedor{
+	background: white;
+	width: 1000px;
+	margin: 7px auto;
+	overflow: hidden;
+	
+}
+.aliash2{
+	color:#A7A3A3;
+}
+h1{
+	text-align: center;
+	color:#474545;
+	margin: 10px auto;
+} 
+.linea{
+	border-top: 5px solid #EB40C5;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+.festivos{
+	overflow: hidden; padding: 15px 0;
+}
+.izq{
+	float: left;
+	overflow: hidden;
+	
+}
+
+.der{
+	
+	float: right;
+	overflow: hidden;
+	text-align:justify;
+	
+}
+
+.festivos1{
+	overflow: hidden; padding: 15px 0;
+}
+.title{
+	cursor: pointer;
+}
+.txt{
+	text-align: right;
+	margin-right: 20px;
+	cursor:pointer;
+}
+.izq1{
+	float: right;
+	overflow: hidden;
+	
+}
+
+.der1{
+	
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	
+}
+.festivos2{
+	overflow: hidden; padding: 15px 0;
+}
+
+
+.izq2{
+	float: left;
+	overflow: hidden;
+	
+}
+
+.der2{
+	
+	float: right;
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+.flechitas1{
+	position: absolute;
+	top:190px;
+	
+}
+.delante1{
+	margin-left:380px;
+	
+
+}
+.atras1{
+	margin-left: 35px;
+
+}
+
+
+.flechitas2{
+	position: absolute;
+	top: 190px;
+}
+.delante2{
+	margin-left: 380px;
+}
+.atras2{
+	margin-left: 35px;
+}
+
+.flechitas3{
+	position: absolute;
+	top: 190px;
+}
+.delante3{
+	margin-left:380px;
+
+}
+.atras3{
+	margin-left: 35px;
+
+}
+
+.flechitas4{
+	position: absolute;
+	top: 190px;
+}
+
+.delante4{
+	margin-left: 380px;
+}
+.atras4{
+	margin-left: 35px;
+}
+
+
+.img{
+	margin: 25px;
+	
+}
+
+.p{
+	margin-top: 200px;
+	margin-right: 80px;
+	font-family: 'Boogaloo', cursive;
+	
+}
+
+.p1{
+	margin-top: 200px;
+	margin-left: 50px;
+	font-family: 'Boogaloo', cursive;
+}
+h3{
+	margin-left: 20px;
+}
+
+.aliash2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.flechitas1,.flechitas2,.flechitas3{
+	cursor: pointer;
+}
