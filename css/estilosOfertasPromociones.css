@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estructura{background: white; margin-top: 15px;}
+
+
+.Aniv{
+	color: black;
+	font-family: 'Passion One', cursive;
+	padding: 10px 0;
+	padding-left: 45px;
+	
+}
+
+.Can{
+	color: black;
+	font-family: 'Passion One', cursive;
+	padding: 10px 0;
+	padding-left: 45px;
+	
+}
+
+.Holloween{	
+	color: black;
+	font-family: 'Passion One', cursive;
+	padding: 10px 0;
+	padding-left: 45px;
+
+
+}
+.contenido{
+	
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: black;
+	font-size: 30px;
+	padding-top: 200px;
+	text-align: left;
+	padding-right: 55px;
+}
+
+#promo{
+	padding-top: 20px;
+	padding-left: 55px;
+	padding-bottom: 20px;
+}
+
+#promo1{
+	padding-top: 20px;
+	padding-left: 55px;
+	padding-bottom: 20px;
+}
+
+#promo2{
+	padding-top: 20px;
+	padding-left: 55px;
+	padding-bottom: 20px;
+}
+
