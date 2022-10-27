@@ -2,22 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Nuestras Imagenes</title>
-
-
+    <title>Eventos Festivos</title>
 
 
     <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animations.css">
     <link href="https://fonts.googleapis.com/css?family=Amaranth|Carter+One|Courgette|Enriqueta|Fredoka+One|Fugaz+One|Knewave|Kreon|Lobster|Merienda|Oleo+Script|Parisienne|Patua+One|Playball|Righteous|Sacramento|Shrikhand|Ultra" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
-
     <link rel="stylesheet" href="imagenes/Iconos-2/styles.css">
     <link rel="stylesheet" href="css/estilosModelo.css">
 
-    <link rel="stylesheet" href="css/estilosNuestrasImagenes.css">
-
+    <link rel="stylesheet" href="css/estiloEventosFestivos.css">
 
     <link rel="shortcut icon" type="image/x-icon" href="imagenes/Iconos/Fico.ico">
 
@@ -31,6 +25,8 @@
 <body class="fondoIndex">
 
 
+
+    <!-------------------------------------------------------------------------------------------------HEADER ----------------------------------------------------------------------------------->
 
     <header class="navbar navbar-expand-lg navbar-light" style="background-color: purple">
 
@@ -79,19 +75,25 @@
 
                 <div class="col-md-9 offset-4-mio offset-4-mio2 cen " style="clear: both">
 
-                    <!--Buscar-->
+
+                    <!----------------Buscar----------------------->
 
                     <form class="form-inline my-2 my-lg-0 ">
                         <input class="form-control mr-sm-2 limpia bbuscar" type="search" placeholder="Buscar" aria-label="Search">
                         <button class="btn btn-outline-info my-2 my-sm-0 buscar" type="submit">Buscar</button>
                     </form>
+
+                    <!---------------------------------------------->
+
                 </div>
             </div>
         </div>
 
 
     </header>
+    <!--------------------------------------------------------------------------------FIN-HEADER---------------------------------------------------------------------------------------------------->
     <!--------------------------------------------------------------------------------NAV-MENU------------------------------------------------------------------------------------------------------->
+
 
 
 
@@ -100,9 +102,6 @@
         <div class="container">
 
             <div class="col-md-12">
-
-
-
 
 
 
@@ -122,10 +121,7 @@
                         <ul class="navbar-nav mr-auto">
 
 
-
-
                             <li class="nav-item dropdown parali">
-
 
 
 
@@ -174,14 +170,12 @@
 
                                 </div>
                             </li>
-
                             <!-----------------------LOGO CENTRAL------------------------------------------------------------------------------------->
 
 
                             <li class="nav-item animate" data-anim-type="fadeInDown" data-anim-delay="10">
                                 <a class="logoli " href="Index-Real.html"><img src="imagenes/Iconos/festivacontorno.png" alt="" width="140px" height="70px" class="hover-pulse"></a>
                             </li>
-
 
                             <!------------------------------------------------------------------------------------------------------------>
 
@@ -201,19 +195,17 @@
 
                     </div>
 
-
-
-
                 </div>
 
             </div>
         </div>
 
+
+
     </nav>
 
 
-
-    <!---------------------FIN--NAV-MENU------------------------------------------------------------->
+    <!---------------------------------------------------------------------FIN--NAV-MENU----------------------------------------------------------------------------------------------------------->
 
 
     <div class="container animate" data-anim-type="fadeInDown" data-anim-delay="10">
@@ -222,61 +214,85 @@
         <div class="container estructura">
             <!--Cambiar cuerpo por estructura y añadir la clase estructura--->
 
-            <div class="contenedor">
-                <h2 class="aliash2 animate" data-anim-type="fadeInDown"><center>"El juego es la manera más natural de aprendizaje del ser humano"</center></h2>
-                <h1 class="animate" data-anim-type="fadeInDown">Galería</h1>
 
-                <section class="festivos">
-                    <h3 class="title hover-bounce" data-anim-type="fadeInDown">Eventos Festivos:</h3>
-                    <div class="linea"></div>
-                    <section class="izq animate" data-anim-type="fadeInDown">
-                        <img src="imagenes/galeria/baner1.jpg" width="500px" height="350px" id="slider" class="img" alt="Imagen1">
-                        <div class="flechitas1">
-                            <img src="imagenes/galeria/atras.png" alt="" class="atras1" onClick="banerbaner()">
-                            <img src="imagenes/galeria/delante.png" alt="" class="delante1" onClick="banerbaner()">
+
+            <div class="galeria">
+                <div class="titulo animate" data-anim-type="fadeInDown"><h1>Eventos Festivos</h1></div>
+                <div class="linea"></div>
+                <div class="contenedor-imagenes">
+
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/imagen1.jpg" alt="" class="dentro" id="safari">
+                        <div class="overlay">
+                            <h2>Mickey Safari</h2>
                         </div>
-                    </section>
-                    <section class="der animate" data-anim-type="fadeInDown">
-                        <p class="p">MUCHOS CLIENTES SATISFECHOS Y MUCHAS SONRISAS</p>
-                    </section>
+                    </div>
 
-                </section>
-
-
-                <section class="festivos1">
-                    <h3 class="txt hover-bounce" data-anim-type="fadeInDown">Fiestas en Nidos y Talleres:</h3>
-                    <div class="linea"></div>
-                    <section class="izq1 animate" data-anim-type="fadeInDown">
-                        <img src="imagenes/galeria/nido1.jpg" width="500px" height="350px" id="slider1" class="img" alt="Imagen2">
-                        <div class="flechitas2">
-                            <img src="imagenes/galeria/atras.png" alt="" class="atras2" onClick="banerbaner1()">
-                            <img src="imagenes/galeria/delante.png" alt="" class="delante2" onClick="banerbaner1()">
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/imagen2.jpg" alt="" class="dentro" id="tendencia">
+                        <div class="overlay">
+                            <h2>Nuevas tendencias</h2>
                         </div>
-                    </section>
-                    <section class="der1">
-                        <p class="p1 animate" data-anim-type="fadeInDown">
-                            PORQUE NOS IMPORTA EL BIENESTAR DE SUS NIÑOS, <br>
-                            CREAMOS ESTA FORMA SALUDABLE DE CELEBRAR SU CUMPLEAÑOS
-                        </p>
-                    </section>
+                    </div>
 
-                </section>
-
-                <section class="festivos2">
-                    <h3 class="title hover-bounce" data-anim-type="fadeInDown">Compromisos:</h3>
-                    <div class="linea"></div>
-                    <section class="izq2 animate" data-anim-type="fadeInDown">
-                        <img src="imagenes/galeria/compromisos/compromisos1.jpg" width="500px" height="350px" id="slider2" class="img" alt="Imagen3">
-                        <div class="flechitas3">
-                            <img src="imagenes/galeria/atras.png" alt="" class="atras3" onClick="banerbaner2()">
-                            <img src="imagenes/galeria/delante.png" alt="" class="delante3" onClick="banerbaner2()">
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/imagen3.jpg" alt="" class="dentro" id="luna">
+                        <div class="overlay">
+                            <h2>Soy Luna </h2>
                         </div>
-                    </section>
-                    <section class="der2">
-                        <p class="p animate" data-anim-type="fadeInDown">MUCHAS GRACIAS POR HACERNOS PARTE  <br>DE ESE MOMENTO TAN ESPECIAL PARA USTEDES</p>
-                    </section>
+                    </div>
 
-                </section>
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/imagen4.jpg" alt="" class="dentro" id="peppa">
+                        <div class="overlay">
+                            <h2>Peppa Tradicional</h2>
+                        </div>
+                    </div>
+
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/imagen5.jpg" alt="" class="dentro" id="coco">
+                        <div class="overlay">
+                            <h2>Decoración de espacios intermedios</h2>
+                        </div>
+                    </div>
+
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/imagen6.jpg" alt="" class="dentro" id="rustico">
+                        <div class="overlay">
+                            <h2>Mickey estilo Rústico</h2>
+                        </div>
+                    </div>
+
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/imagen7.jpg" alt="" class="dentro">
+                        <div class="overlay">
+                            <h2>Unicornio</h2>
+                        </div>
+                    </div>
+
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/imagen8.jpg" alt="" class="dentro" id="minion">
+                        <div class="overlay">
+                            <h2>Minions</h2>
+                        </div>
+                    </div>
+
+                    <div class="imagen hover-wave" data-anim-type="fadeInDown">
+                        <img src="imagenes/galeria/pintadita2.jpg" alt="" class="dentro" id="pintada">
+                        <div class="overlay">
+                            <h2>Gallinita Pintadita</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="linea"></div>
+
+                <div id="video">
+                    <video controls width="100%" height="500px" src="videos/20181130_124840_edited.mp4" type='video/mp4'>
+                    </video>
+                </div>
+
+
             </div>
 
 
@@ -291,10 +307,10 @@
     <br />
     <br />
 
+    <!-------------------------------------------------------------FOOTER---------------------------------------------------------------------------------------------------------------------->
 
 
 
-    <!----------------------------FOOTER------------------------------------------------------------->
 
     <footer class="navbar navbar-expand-lg navbar-light footer">
 
@@ -326,8 +342,7 @@
 
     </footer>
 
-    <!---------------------FIN---FOOTER---------------------------------------->
-
+    <!----------------------------------------------------------FIN---FOOTER---------------------------------------------------------------------------------------------------------------------->
 
 </body>
 
@@ -344,6 +359,6 @@
 <script src="js/codigoefectoCirculo.js"></script>
 <script src="js/codigoModelo.js"></script>
 
-<script src="js/codigoNuestrasImagenes.js"></script>
+<script src="js/codigoEventosFestivos.js"></script>
 
 </html>
