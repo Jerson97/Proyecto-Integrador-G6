@@ -32,7 +32,7 @@ function hor ()
 	var fecha=new Date();
 	var hora=fecha.getHours();
 	setTimeout(hor,1000);
-    document.getElementsByClassName("verh")[0].innerHTML=hora+"/";
+    document.getElementsByClassName("verh")[0].innerHTML=hora+":";
 
 }
 
@@ -42,7 +42,7 @@ function min ()
 	var fecha=new Date();
 	var minutos=fecha.getMinutes();
 	setTimeout(min,1000);
-	document.getElementsByClassName("verh")[1].innerHTML=minutos+"/";
+	document.getElementsByClassName("verh")[1].innerHTML=minutos+":";
 
 }
 
