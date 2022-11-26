@@ -276,11 +276,11 @@
 		  <div class="row">
 			  <div class="col-md-6">
 				<label for="formGroupExampleInput">Nombres :</label>
-				<input type="text" class="form-control" placeholder="Ingrese Nombres" name="name">
+				<input type="text" id="nombre" class="form-control" placeholder="Ingrese Nombres" name="name">
 			  </div>
 			  <div class="col-md-6">
 				<label for="formGroupExampleInput">Apellidos :</label>	
-				<input type="text" class="form-control" placeholder="Ingrese Apellidos" name="lastname">
+				<input type="text" id="apellido" class="form-control" placeholder="Ingrese Apellidos" name="lastname">
 			  </div>
 			</div>
 				
@@ -293,7 +293,7 @@
 					  
 			<div class="form-group">
 			  <label for="exampleInputEmail1">Correo :</label>
-			  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese correo" name="correo">
+			  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese correo" name="correo">
 			  <small id="emailHelp" class="form-text text-muted">Nos comunicaremos a la brevedad posible con usted.</small>
 			</div>
 					  
@@ -323,8 +323,8 @@
 					  
 		  <br/>
 					  
-			<button type="submit" class="btn btn-primary">Enviar</button>
-		  </form>
+		</form>
+		<button class="btn btn-primary" onclick="guardar()">Enviar</button>
 		
 		
 		
@@ -422,6 +422,11 @@
     <script src="js/jquery-3.2.1.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+	<script src="js/configuracion.js"></script>
+	<script src="js/guardar.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.0.0.js"></script>
 	<script src="assets/js/animations.js"></script>
@@ -429,7 +434,7 @@
 	<script src="js/efectoCirculosSketch.js"></script>
 	<script src="js/codigoefectoCirculo.js"></script> 
 	<script src="js/codigoModelo.js"></script> 
-	<script src="js/codigoContactenos.js"></script>
+	
 
 	
 </html>
