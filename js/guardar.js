@@ -5,7 +5,7 @@ function guardar() {
         direccion: document.getElementById('inputAddress').value,
         correo: document.getElementById('exampleInputEmail1').value,
         telefono: document.getElementById('formGroupExampleInput').value,
-        mensaje: document.getElementById('exampleFormControlTextarea1').value
+        mensaje: document.getElementById('forInputmmensaje').value
 
     })
     .then((docRef) => {
