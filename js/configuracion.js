@@ -2,12 +2,12 @@
 
 // Initialize Firebase
 firebase.initializeApp({
-    apiKey: "AIzaSyCQ-elRiZo5J-crWCtvLdRnWeT02Waylwg",
-    authDomain: "festiva-eventia.firebaseapp.com",
-    projectId: "festiva-eventia",
-    storageBucket: "festiva-eventia.appspot.com",
-    messagingSenderId: "1021657191112",
-    appId: "1:1021657191112:web:a42b699325f32d0aa44bfd"
+    apiKey: "AIzaSyA97Xly_xuwYGcC9R-PAxJ65O0Y386cuE4",
+    authDomain: "database-9c45a.firebaseapp.com",
+    projectId: "database-9c45a",
+    storageBucket: "database-9c45a.appspot.com",
+    messagingSenderId: "678395744477",
+    appId: "1:678395744477:web:04525445ea98b74b91cb34"
 });
 
 
