@@ -1,11 +1,10 @@
 function guardar() {
-    db.collection("contactos").add({
-        nombres: document.getElementById('nombre').value,
+    db.collection("usuarios").add({
+        nombre: document.getElementById('nombre').value,
         apellidos: document.getElementById('apellido').value,
         direccion: document.getElementById('inputAddress').value,
         correo: document.getElementById('exampleInputEmail1').value,
-        telefono: document.getElementById('formGroupExampleInput').value,
-        mensaje: document.getElementById('forInputmmensaje').value
+        telefono: document.getElementById('formGroupExampleInput').value
 
     })
     .then((docRef) => {
