@@ -1,5 +1,5 @@
 function guardar() {
-    db.collection("usuarios").add({
+    db.collection("contactos").add({
         nombres: document.getElementById('nombre').value,
         apellidos: document.getElementById('apellido').value,
         direccion: document.getElementById('inputAddress').value,
